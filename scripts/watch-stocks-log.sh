@@ -1,0 +1,1 @@
+oc logs $(oc get pod -l=camel.apache.org/integration=stock-service -o jsonpath='{.items[0].metadata.name}') -c integration -f

@@ -1,0 +1,1 @@
+http http://orders-rest-api.famartin-test.apps.famartin-ocp.openshift-aws.rhocf-dev.com/orders item-id=123456 quantity:=1

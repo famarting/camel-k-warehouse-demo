@@ -1,0 +1,1 @@
+curl -i -d '{"item-id":"123456", "quantity":5}' -H "Content-Type: application/json" -X POST $(oc get ksvc stock-rest-api --template='{{ .status.url }}')/stocks
